@@ -4,6 +4,8 @@ header{
     height: 6em;
     text-align: center;
     font-size: 25px;
+    border: solid 3px rgb(40, 7, 56);
+
 }
 
 body{
@@ -40,6 +42,7 @@ img{
 footer{
     background-color: rgb(63, 13, 97);
     height: 10em;
+    border: solid 3px rgb(40, 7, 56);
 }
 
 
