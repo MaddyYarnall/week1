@@ -11,17 +11,33 @@ body{
     margin-top: 0;
 }
 
-img{
-    height: 300px;
-    width: 295px;
-    position: relative;
-    transform: translateX(700px);
-    padding-top: 4em;
+.blueline{
+    height: 1.5em;
+    background-color: lightblue;
+    margin-top: 1em;
 }
 
+.startofpage{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3em;
+    padding-top: 2em;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    justify-content: flex-end;
+    transform: translateY(70px);
+}
+
+.lorem{
+    padding-left: 6em;
+}
 
 
 /*UTILITY CLASSES*/
 .d-flex{
     display: flex;
 }
+
