@@ -15,6 +15,8 @@ body{
     height: 1.5em;
     background-color: rgb(198, 158, 224);
     margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 .startofpage{
@@ -33,6 +35,11 @@ img{
 
 .lorem{
     padding-left: 6em;
+}
+
+footer{
+    background-color: rgb(63, 13, 97);
+    height: 10em;
 }
 
 
