@@ -1,20 +1,27 @@
-h1{
-    height: 3em;
-    text-align: center;
-    margin: 0;
-    font-size: 45px;
+header{
+    background-color: rgb(63, 13, 97);
     color: white;
-    background-color: rgb(37, 39, 146);
-    border: 3px solid black;
-    justify-content: end;
+    height: 6em;
+    text-align: center;
+    font-size: 25px;
 }
 
 body{
-    margin: 0%;
+    margin: 0;
+    margin-top: 0;
 }
 
-.blueline{
-    margin: 4em;
-    height: 2em;
-    background-color: lightblue;
+img{
+    height: 300px;
+    width: 295px;
+    position: relative;
+    transform: translateX(700px);
+    padding-top: 4em;
+}
+
+
+
+/*UTILITY CLASSES*/
+.d-flex{
+    display: flex;
 }
